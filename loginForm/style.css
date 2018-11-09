@@ -1,0 +1,63 @@
+html,
+body {
+	all: unset;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to right, #e55f6a, #c569cc);
+	font-family: 'Roboto', sans-serif;
+}
+.card {
+	width: 400px;
+	height: 550px;
+	box-shadow: 0 15px 40px 0 rgba(0, 0, 0, .5);
+	border-radius: 8px;
+	background: #1f232f;
+}
+h3 {
+	margin: 0;
+	padding: 150px 35px 20px;
+	color: #818493;
+}
+.card .input-block {
+	display: block;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+.card .input-block i {
+	padding: 10px 10px 10px 35px;
+	color: #818493;
+}
+.card .input-block input {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #818493;
+	font-size: 20px;
+	border-bottom: 1px solid #818493;
+	width: 250px;
+}
+.form-container {
+	margin-top: 30px;
+	padding: 0 35px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+input[type="submit"] {
+	all: unset;
+	padding: 5px 50px;
+	border: 2px solid #60445a;
+	color: #60445a;
+	border-radius: 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+a {
+	all: unset;
+	text-decoration: underline;
+	cursor: pointer;
+}
